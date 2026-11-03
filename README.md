@@ -17,10 +17,10 @@ Designed to operate reliably in high-stress and critical emergency situations, R
 ---
 
 ## Tech Stack & Dependencies
-**Framework:** Flutter (Dart)
-**Architecture:** BLoC / Provider Pattern for scalable state management
-**Hardware Interfacing:** sensors_plus, geolocator, flutter_background_service
-**Machine Learning:** TFLite / Audio classification models for voice distress recognition
+* **Framework:** Flutter (Dart)
+* **Architecture:** BLoC / Provider Pattern for scalable state management
+* **Hardware Interfacing:** sensors_plus, geolocator, flutter_background_service
+* **Machine Learning:** TFLite / Audio classification models for voice distress recognition
 
 **Prerequisites**
 * **Flutter SDK:** `>=3.0.0`
