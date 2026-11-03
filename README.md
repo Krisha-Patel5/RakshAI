@@ -16,26 +16,6 @@ Designed to operate reliably in high-stress and critical emergency situations, R
 
 ---
 
-## Technical Architecture
-
-       ┌────────────────────────────────────────────────────────┐
-       │                   RakshAI App Core                     │
-       └───────────────────────────┬────────────────────────────┘
-                                   │
-         ┌─────────────────────────┼─────────────────────────┐
-         ▼                         ▼                         ▼
-┌───────────────────┐    ┌───────────────────┐    ┌───────────────────┐
-│ Sensor-Fusion     │    │ Acoustic Voice    │    │ Background System │
-│ Engine            │    │ Trigger Model     │    │ Tracker Service   │
-│ (IMU Telemetry)   │    │ (Distress Audio)  │    │ (Location/State)  │
-└────────┬──────────┘    └─────────┬─────────┘    └─────────┬─────────┘
-         │                         │                         │
-         └─────────────────────────┼─────────────────────────┘
-                                   ▼
-                       ┌───────────────────────┐
-                       │ Emergency Alert Event │
-                       └───────────────────────┘
-
 ## Tech Stack & Dependencies
 Framework: Flutter (Dart)
 Architecture: BLoC / Provider Pattern for scalable state management
