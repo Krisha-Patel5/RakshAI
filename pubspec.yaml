@@ -1,0 +1,59 @@
+name: ai_safety_app
+description: AI Based Smart Safety Application
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  sensors_plus: ^7.0.0
+  speech_to_text: ^7.0.0
+  flutter_local_notifications: ^20.0.0
+  google_maps_flutter: ^2.14.0
+  geocoding: ^3.0.0
+  geolocator: ^13.0.0
+  permission_handler: ^12.0.0
+  url_launcher: ^6.3.1
+  shared_preferences: ^2.4.0
+  flutter_foreground_task: ^7.5.2
+  flutter_background_service: ^5.0.0
+  flutter_background_service_android: ^6.0.0 # Runs code in a persistent background process
+  record: 5.1.0
+  path_provider: ^2.1.1
+  battery_plus: ^7.0.0
+  another_telephony: ^0.4.1
+  supabase_flutter: ^2.8.0
+  wakelock_plus: ^1.4.0
+  mailer: ^7.1.0
+  audioplayers: ^6.1.0
+  torch_light: ^1.0.1
+  vibration: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+   android: "launcher_icon"
+   ios: true
+   image_path: "assets/images/icon.png"
+   adaptive_icon_background: "#000000"
+   adaptive_icon_foreground: "assets/images/icon.png"
+   adaptive_icon_foreground_inset: 25
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/audio/siren.mp3
+    - assets/images/icon.png
+
+dependency_overrides:
+  record_platform_interface: 1.1.0

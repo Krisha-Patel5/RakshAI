@@ -1,0 +1,19 @@
+Source Code View & Evaluation License
+
+Copyright (c) 2026 Krisha Patel. All Rights Reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software") solely to 
+view, inspect, and evaluate the source code for personal, academic, or review 
+purposes.
+
+THE FOLLOWING ACTIONS ARE STRICTLY PROHIBITED:
+1. Selling, reselling, or commercialising the Software or any portion thereof.
+2. Publishing, republishing, hosting, or redistributing the Software in any 
+   form or on any platform.
+3. Modifying, altering, or creating derivative works based upon the Software.
+4. Sublicensing or granting rights to third parties.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR 
+OTHER LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE.
