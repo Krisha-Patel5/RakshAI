@@ -23,10 +23,10 @@ Designed to operate reliably in high-stress and critical emergency situations, R
 **Machine Learning:** TFLite / Audio classification models for voice distress recognition
 
 **Prerequisites**
-Flutter SDK: >=3.0.0
-Dart SDK: >=3.0.0
-Android Studio or VS Code with Flutter extensions enabled
-An Android physical device or AVD running API level 24+
+* **Flutter SDK:** `>=3.0.0`
+* **Dart SDK:** `>=3.0.0`
+* **IDE:** Android Studio or VS Code with Flutter and Dart extensions enabled
+* **Target Environment:** An Android physical device or AVD running **API level 24+** 
 
 **Local Setup**
 Install Dependencies:
