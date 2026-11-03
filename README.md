@@ -17,32 +17,30 @@ Designed to operate reliably in high-stress and critical emergency situations, R
 ---
 
 ## Tech Stack & Dependencies
-Framework: Flutter (Dart)
-Architecture: BLoC / Provider Pattern for scalable state management
-Hardware Interfacing: sensors_plus, geolocator, flutter_background_service
-Machine Learning / DSP: TFLite / Audio classification models for voice distress recognition
+**Framework:** Flutter (Dart)
+**Architecture:** BLoC / Provider Pattern for scalable state management
+**Hardware Interfacing:** sensors_plus, geolocator, flutter_background_service
+**Machine Learning:** TFLite / Audio classification models for voice distress recognition
 
-Prerequisites
+**Prerequisites**
 Flutter SDK: >=3.0.0
 Dart SDK: >=3.0.0
 Android Studio or VS Code with Flutter extensions enabled
 An Android physical device or AVD running API level 24+
 
-Local Setup
-
+**Local Setup**
 Install Dependencies:
 flutter pub get
-
 Run the Application:
 flutter run
 
-Building the Release APK
+**Building the Release APK**
 To generate an installable standalone release package for testing:
 flutter build apk --release
 The output file will be generated at:
 build/app/outputs/flutter-apk/app-release.apk
 
-License & Terms of Use
+## License & Terms of Use
 Copyright (c) 2026 Krisha Patel. All Rights Reserved.
 
 This repository and its source code are made available strictly for academic review, portfolio evaluation, and code inspection.
